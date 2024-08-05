@@ -2,7 +2,7 @@
   "expo": {
     "name": "Jobit",
     "slug": "Jobit",
-    "scheme":"jobit",
+    "scheme": "jobit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,13 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.otienomarvin.Jobit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "02958f73-1637-4e84-8e22-1d605d41186a"
+      }
+    }
   }
 }
